@@ -7,10 +7,19 @@ body {
     background: #080C20;
     color: #777F98;
     font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 h1, h2, h3 {
     color: white;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 56px;
 }
 
 .hero {
