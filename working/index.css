@@ -29,7 +29,6 @@ h1 span {
 .hero {
     overflow-x: clip;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
@@ -51,9 +50,7 @@ h1 span {
         margin-top: 0;
         width: 100vw;
         justify-content: space-between;
-        align-items: flex-end; /* to match alignment on 1440 as figma */
-        flex-wrap: unset;
-        transform: scale(1);
+        align-items: center;
         margin-bottom: 110px;
     }
 
