@@ -7,3 +7,7 @@ body {
     background: #093F68;
     color: #777F98;
 }
+
+h1, h2, h3 {
+    color: white;
+}
