@@ -69,4 +69,12 @@ h1 span {
         position: relative;
         right: -60px;
     }
+
+    .hero h1 {
+        margin-bottom: 24px;
+    }
+
+    .hero p {
+        margin-bottom: 64px;
+    }
 }
