@@ -11,3 +11,51 @@ body {
 h1, h2, h3 {
     color: white;
 }
+
+.hero {
+    overflow-x: clip;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-image-left {
+    display: none; /* doesn't exist on mobile */
+}
+
+.hero-image-right {
+    display: none; /* doesn't exist on mobile */
+}
+
+.hero-content-box {
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        margin-top: 0;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: flex-end; /* to match alignment on 1440 as figma */
+        flex-wrap: unset;
+        transform: scale(1);
+        margin-bottom: 110px;
+    }
+
+    .hero-image-left {
+        display: block;
+        width: 35%;
+        flex-shrink: 1;
+        position: relative;
+        left: -60px;
+    }
+
+    .hero-image-right {
+        display: block;
+        width: 35%;
+        flex-shrink: 1;
+        position: relative;
+        right: -60px;
+    }
+}
