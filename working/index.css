@@ -54,6 +54,11 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
+    .logo-area {
+        margin-top: 81px;
+        padding-left: 161px;
+        margin-bottom: 114px;
+    }
     .hero {
         margin-top: 0;
         justify-content: space-between;
