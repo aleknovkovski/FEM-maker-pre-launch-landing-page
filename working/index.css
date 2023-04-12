@@ -134,6 +134,7 @@ h1 span {
     .pricing-boxes {
         display: flex;
         gap: 30px;
+        position: relative; /* to allow absolute for icons*/
     }
 
     .pricing-box {
@@ -145,7 +146,18 @@ h1 span {
         padding: 38px;
     }
 
+    .free-plan-box img {
+        position: absolute;
+        top: -23px;
+    }
+
+    .paid-plan-box img {
+        position: absolute;
+        top: -32px;
+    }
+
     .pricing-box h3 {
+        margin-top: 26px;
         margin-bottom: 19px;
     }
 
