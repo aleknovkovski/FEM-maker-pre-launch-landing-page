@@ -259,5 +259,20 @@ h2 {
         height: 228px; /* temporary, remove when content sized */
         background-image: url("./assets/bg-footer-squiggle.svg");
         margin-bottom: 117px;
+        padding-top: 52px;
+        padding-bottom: 42px;
+    }
+
+    .signup-content-box {
+        width: 730px;
+        height: 134px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signup-area-form {
+        display: flex;
     }
 }
