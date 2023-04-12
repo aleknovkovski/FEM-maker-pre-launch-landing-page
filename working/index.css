@@ -134,30 +134,32 @@ h1 span {
     .pricing-boxes {
         display: flex;
         gap: 30px;
-        position: relative; /* to allow absolute for icons*/
+        align-items: center;
     }
 
     .pricing-box {
         width: 445px;
-        height: 425px;
         background: #093F68;
         border-radius: 8px;
         color: #FFFFFF;
-        padding: 38px;
+        padding: 49px 38px;
     }
 
-    .free-plan-box img {
-        position: absolute;
-        top: -23px;
+    .paid-plan-box {
+        padding: 60px 38px;
     }
 
-    .paid-plan-box img {
-        position: absolute;
-        top: -32px;
-    }
+    /*.free-plan-box img {*/
+    /*    position: absolute;*/
+    /*    top: -23px;*/
+    /*}*/
+
+    /*.paid-plan-box img {*/
+    /*    position: absolute;*/
+    /*    top: -32px;*/
+    /*}*/
 
     .pricing-box h3 {
-        margin-top: 26px;
         margin-bottom: 19px;
     }
 
@@ -179,7 +181,6 @@ h1 span {
     }
 
     .paid-plan-box {
-        height: 482px;
         background: #3EE9E5;
         color: #080C20;
 
