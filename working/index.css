@@ -161,9 +161,10 @@ h1 span {
         line-height: 55px;
         color: #FFFFFF;
         margin-bottom: 19px;
+        display: flex;
+        align-items: center;
+        gap: 7px;
     }
-
-
 
     .paid-plan-box {
         height: 482px;
@@ -178,5 +179,13 @@ h1 span {
     .paid-plan-box h3
     {
         color: #080C20;
+    }
+
+    .per-month-tag {
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
