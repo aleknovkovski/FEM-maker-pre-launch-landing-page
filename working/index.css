@@ -91,6 +91,7 @@ h1 span {
 
     .benefits {
         display: flex;
+        gap: 30px;
     }
 
     .benefit-image-box {
@@ -101,5 +102,10 @@ h1 span {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 48px;
+    }
+
+    .benefit-heading {
+        margin-bottom: 23px;
     }
 }
