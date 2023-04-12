@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
-h1{
+h1 {
     font-size: 48px;
     line-height: 56px;
 }
@@ -133,5 +133,32 @@ h1 span {
 
     .pricing-boxes {
         display: flex;
+        gap: 30px;
+    }
+
+    .pricing-box {
+        width: 445px;
+        height: 425px;
+        background: #093F68;
+        border-radius: 8px;
+        color: #FFFFFF;
+    }
+
+    .pricing-box p {
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+
+    .paid-plan-box {
+        height: 482px;
+        background: #3EE9E5;
+        color: #080C20;
+
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+    
+    .paid-plan-box h3 {
+        color: #080C20;
     }
 }
