@@ -93,6 +93,7 @@ h1 span {
         display: flex;
         gap: 30px;
         height: 383px;
+        margin-bottom: 202px;
     }
 
     .benefit-image-box {
@@ -127,6 +128,7 @@ h1 span {
     .pricing-header {
         width: 540px;
         text-align: center;
+        margin-bottom: 72px;
     }
 
     .pricing-boxes {
