@@ -143,6 +143,7 @@ h1 span {
         border-radius: 8px;
         color: #FFFFFF;
         padding: 49px 38px;
+        position: relative;
     }
 
     .paid-plan-box {
@@ -178,6 +179,32 @@ h1 span {
         display: flex;
         align-items: center;
         gap: 7px;
+    }
+
+    .pricing-icon::before {
+        content: "";
+
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        display: block; /* Display the pseudo-element as a block element */
+        position: absolute;
+    }
+
+    .paid-plan-box .pricing-icon::before {
+        background-image: url("./assets/icon-paid.svg"); /* Set the background image */
+        background-size: 51px 65px; /* Set the size of the image */
+        top: -33px;
+        left: 37px; /* Center the icon horizontally */
+        width: 51px; /* Set the width of the pseudo-element */
+        height: 65px; /* Set the height of the pseudo-element */
+    }
+
+    .free-plan-box .pricing-icon::before {
+        background-image: url("./assets/icon-free.svg"); /* Set the background image */
+        background-size: 45px 45px; /* Set the size of the image */
+        top: -22px;
+        left: 37px; /* Center the icon horizontally */
+        width: 45px; /* Set the width of the pseudo-element */
+        height: 45px; /* Set the height of the pseudo-element */
     }
 
     .paid-plan-box {
