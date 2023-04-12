@@ -142,12 +142,28 @@ h1 span {
         background: #093F68;
         border-radius: 8px;
         color: #FFFFFF;
+        padding: 38px;
     }
 
-    .pricing-box p {
+    .pricing-box h3 {
+        margin-bottom: 19px;
+    }
+
+    .pricing-box-description {
         mix-blend-mode: normal;
         opacity: 0.6;
+        margin-bottom: 24px;
     }
+
+    .pricing-box-price-tag {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+        margin-bottom: 19px;
+    }
+
+
 
     .paid-plan-box {
         height: 482px;
@@ -157,8 +173,10 @@ h1 span {
         mix-blend-mode: normal;
         opacity: 0.6;
     }
-    
-    .paid-plan-box h3 {
+
+    .paid-plan-box .pricing-box-price-tag,
+    .paid-plan-box h3
+    {
         color: #080C20;
     }
 }
