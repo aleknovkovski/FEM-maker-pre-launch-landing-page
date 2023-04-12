@@ -92,6 +92,7 @@ h1 span {
     .benefits {
         display: flex;
         gap: 30px;
+        height: 383px;
     }
 
     .benefit-image-box {
@@ -107,5 +108,13 @@ h1 span {
 
     .benefit-heading {
         margin-bottom: 23px;
+    }
+
+    .benefits .benefit:nth-child(odd) {
+        align-self: flex-start;
+    }
+
+    .benefits .benefit:nth-child(even) {
+        align-self: flex-end;
     }
 }
