@@ -127,6 +127,7 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 151px;
     }
 
     .pricing-header {
@@ -252,5 +253,11 @@ h2 {
 
     .free-plan-box ul > li::before {
         filter: invert() hue-rotate(90deg);
+    }
+
+    .signup-area {
+        height: 228px; /* temporary, remove when content sized */
+        background-image: url("./assets/bg-footer-squiggle.svg");
+        margin-bottom: 117px;
     }
 }
