@@ -529,7 +529,7 @@ ul > li::before {
     }
 
     .signup-content-box {
-        width: 730px;
+        width: 476px;
         height: 134px;
         margin: 0 auto;
         display: flex;
@@ -541,6 +541,7 @@ ul > li::before {
     .signup-area-form {
         display: flex;
         gap: 16px;
+        width: 100%;
     }
 
     .signup-area-form input {
@@ -548,6 +549,7 @@ ul > li::before {
         border-radius: 24px;
         border: none;
         padding: 12px 18px;
+        flex-grow: 1;
     }
 
     .signup-area-form input::placeholder {
@@ -569,5 +571,15 @@ ul > li::before {
         font-weight: 800;
         font-size: 15px;
         line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .signup-content-box {
+        width: 730px;
+    }
+
+    .signup-area-form {
+        width: 476px;
     }
 }
