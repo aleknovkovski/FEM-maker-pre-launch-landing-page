@@ -101,6 +101,7 @@ h2 {
         width: 22%;
         left: -30px;
     }
+
     .hero-image-right {
         display: block;
         width: 22%;
@@ -118,6 +119,7 @@ h2 {
         width: 15%;
         left: -30px;
     }
+
     .hero-image-right {
         display: block;
         width: 15%;
@@ -125,7 +127,7 @@ h2 {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .container {
         width: 573px;
         margin: 0 auto;
@@ -133,20 +135,34 @@ h2 {
 
     .benefits {
         display: flex;
+        flex-direction: column;
         gap: 30px;
-        height: 383px;
-        margin-bottom: 202px;
+        margin-bottom: 141px;
+        align-items: center;
+    }
+
+    .benefit {
+        display: flex;
+        flex-direction: row;
+        width: 515px;
+        gap: 55px;
+        align-items: center;
     }
 
     .benefit-image-box {
-        width: 160px;
-        height: 164px;
+        width: 120px;
+        height: 124px;
         background: #093F68;
         border-radius: 45px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 48px;
+        flex-shrink: 0;
+    }
+
+    .benefit-image-box img {
+        width: 50px;
+        height: 50px;
     }
 
     .benefit-heading {
@@ -170,20 +186,23 @@ h2 {
 
     .benefits {
         display: flex;
+        flex-direction: row;
         gap: 30px;
         height: 383px;
         margin-bottom: 202px;
     }
 
+    .benefit {
+        flex-direction: column;
+        width: unset;
+        align-items: unset;
+        gap: 48px;
+    }
+
     .benefit-image-box {
         width: 160px;
         height: 164px;
-        background: #093F68;
         border-radius: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 48px;
     }
 
     .benefit-heading {
@@ -199,7 +218,7 @@ h2 {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .pricing {
         display: flex;
         flex-direction: column;
@@ -330,7 +349,7 @@ h2 {
     }
 
     .pricing-header h2 {
-     margin-bottom: 24px;
+        margin-bottom: 24px;
     }
 
     .pricing-boxes {
