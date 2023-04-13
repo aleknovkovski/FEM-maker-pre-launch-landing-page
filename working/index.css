@@ -74,10 +74,10 @@ h3 {
 }
 
 .hero {
+    margin-top: 0;
     overflow-x: clip;
     display: flex;
     justify-content: center;
-    gap: 1rem;
 }
 
 .hero-content-box {
@@ -85,6 +85,54 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        gap: 0.5rem;
+    }
+
+    .hero-content-box {
+        width: 457px;
+        flex-shrink: 0;
+    }
+
+    .logo-area {
+        margin-top: 48px;
+        padding-left: 39px;
+        margin-bottom: 77px;
+    }
+
+    .hero {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 110px;
+    }
+
+    .hero-image-left {
+        display: block;
+        width: 38%;
+        flex-shrink: 0;
+        position: relative;
+        /*left: -60px;*/
+    }
+
+    .hero-image-right {
+        display: block;
+        width: 38%;
+        flex-shrink: 0;
+        position: relative;
+        /*right: -60px;*/
+    }
+
+    .hero h1 {
+        margin-bottom: 24px;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .hero p {
+        margin-bottom: 64px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -95,10 +143,10 @@ h3 {
     }
 
     .hero {
-        margin-top: 0;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 110px;
+        gap: 1rem;
     }
 
     .hero-image-left {
