@@ -36,6 +36,14 @@ h3 {
     line-height: 25px;
 }
 
+.hero-image-left {
+    display: none; /* doesn't exist on mobile */
+}
+
+.hero-image-right {
+    display: none; /* doesn't exist on mobile */
+}
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 32px;
@@ -70,14 +78,6 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 1rem;
-}
-
-.hero-image-left {
-    display: none; /* doesn't exist on mobile */
-}
-
-.hero-image-right {
-    display: none; /* doesn't exist on mobile */
 }
 
 .hero-content-box {
