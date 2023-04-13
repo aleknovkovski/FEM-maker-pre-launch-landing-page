@@ -126,27 +126,33 @@ h2 {
 }
 
 @media screen and (min-width:768px) {
+    .container {
+        width: 573px;
+        margin: 0 auto;
+    }
+
     .pricing {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 151px;
+        margin-bottom: 119px;
     }
 
     .pricing-header {
         width: 540px;
         text-align: center;
-        margin-bottom: 72px;
+        margin-bottom: 56px;
     }
 
     .pricing-header h2 {
-        margin-bottom: 24px;
+        margin-bottom: 27px;
     }
 
     .pricing-boxes {
         display: flex;
-        gap: 30px;
+        gap: 32px;
         align-items: center;
+        flex-direction: column;
     }
 
     .pricing-box {
@@ -209,6 +215,18 @@ h2 {
         height: 45px; /* Set the height of the pseudo-element */
     }
 
+    .pricing-box-price-tag {
+
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+        margin-bottom: 19px;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
     .paid-plan-box {
         background: #3EE9E5;
         color: #080C20;
@@ -220,6 +238,14 @@ h2 {
     .paid-plan-box .pricing-box-price-tag,
     .paid-plan-box h3 {
         color: #080C20;
+    }
+
+    .per-month-tag {
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
 
@@ -260,15 +286,11 @@ h2 {
     }
 
     .pricing {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 151px;
     }
 
     .pricing-header {
-        width: 540px;
-        text-align: center;
+        width: 573px;
         margin-bottom: 72px;
     }
 
@@ -277,18 +299,31 @@ h2 {
     }
 
     .pricing-boxes {
-        display: flex;
         gap: 30px;
-        align-items: center;
+        flex-direction: row;
     }
 
     .pricing-box {
-        width: 445px;
-        background: #093F68;
-        border-radius: 8px;
-        color: #FFFFFF;
-        padding: 49px 38px;
-        position: relative;
+        /*Same as tablet*/
+        /*width: 445px;*/
+        /*background: #093F68;*/
+        /*border-radius: 8px;*/
+        /*color: #FFFFFF;*/
+        /*padding: 49px 38px;*/
+        /*position: relative;*/
+    }
+
+    .pricing-box-price-tag {
+        /* Same as Tablet */
+
+        /*font-weight: 800;*/
+        /*font-size: 40px;*/
+        /*line-height: 55px;*/
+        /*color: #FFFFFF;*/
+        /*margin-bottom: 19px;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*gap: 7px;*/
     }
 
     .paid-plan-box {
@@ -300,67 +335,70 @@ h2 {
     }
 
     .pricing-box-description {
-        mix-blend-mode: normal;
-        opacity: 0.6;
-        margin-bottom: 24px;
-    }
+        /* Same as Tablet */
 
-    .pricing-box-price-tag {
-        font-weight: 800;
-        font-size: 40px;
-        line-height: 55px;
-        color: #FFFFFF;
-        margin-bottom: 19px;
-        display: flex;
-        align-items: center;
-        gap: 7px;
+        /*mix-blend-mode: normal;*/
+        /*opacity: 0.6;*/
+        /*margin-bottom: 24px;*/
     }
 
     .pricing-icon::before {
-        content: "";
+        /* Same as Tablet */
 
-        background-repeat: no-repeat; /* Prevent the image from repeating */
-        display: block; /* Display the pseudo-element as a block element */
-        position: absolute;
+        /*content: "";*/
+
+        /*background-repeat: no-repeat; !* Prevent the image from repeating *!*/
+        /*display: block; !* Display the pseudo-element as a block element *!*/
+        /*position: absolute;*/
     }
 
     .paid-plan-box .pricing-icon::before {
-        background-image: url("./assets/icon-paid.svg"); /* Set the background image */
-        background-size: 51px 65px; /* Set the size of the image */
-        top: -33px;
-        left: 37px; /* Center the icon horizontally */
-        width: 51px; /* Set the width of the pseudo-element */
-        height: 65px; /* Set the height of the pseudo-element */
+        /* Same as Tablet */
+
+        /*background-image: url("./assets/icon-paid.svg"); !* Set the background image *!*/
+        /*background-size: 51px 65px; !* Set the size of the image *!*/
+        /*top: -33px;*/
+        /*left: 37px; !* Center the icon horizontally *!*/
+        /*width: 51px; !* Set the width of the pseudo-element *!*/
+        /*height: 65px; !* Set the height of the pseudo-element *!*/
     }
 
     .free-plan-box .pricing-icon::before {
-        background-image: url("./assets/icon-free.svg"); /* Set the background image */
-        background-size: 45px 45px; /* Set the size of the image */
-        top: -22px;
-        left: 37px; /* Center the icon horizontally */
-        width: 45px; /* Set the width of the pseudo-element */
-        height: 45px; /* Set the height of the pseudo-element */
+        /* Same as Tablet */
+
+        /*background-image: url("./assets/icon-free.svg"); !* Set the background image *!*/
+        /*background-size: 45px 45px; !* Set the size of the image *!*/
+        /*top: -22px;*/
+        /*left: 37px; !* Center the icon horizontally *!*/
+        /*width: 45px; !* Set the width of the pseudo-element *!*/
+        /*height: 45px; !* Set the height of the pseudo-element *!*/
     }
 
     .paid-plan-box {
-        background: #3EE9E5;
-        color: #080C20;
+        /* Same as Tablet */
 
-        mix-blend-mode: normal;
-        opacity: 0.6;
+        /*background: #3EE9E5;*/
+        /*color: #080C20;*/
+
+        /*mix-blend-mode: normal;*/
+        /*opacity: 0.6;*/
     }
 
     .paid-plan-box .pricing-box-price-tag,
     .paid-plan-box h3 {
-        color: #080C20;
+        /* Same as Tablet */
+
+        /*color: #080C20;*/
     }
 
     .per-month-tag {
-        mix-blend-mode: normal;
-        opacity: 0.6;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 25px;
+        /* Same as Tablet */
+
+        /*mix-blend-mode: normal;*/
+        /*opacity: 0.6;*/
+        /*font-weight: 500;*/
+        /*font-size: 15px;*/
+        /*line-height: 25px;*/
     }
 
     ul {
