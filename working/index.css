@@ -698,6 +698,10 @@ ul {
     list-style: none;
 }
 
+ul li {
+    margin-bottom: 12px;
+}
+
 ul > li::before {
     content: "";
     height: 1em;
