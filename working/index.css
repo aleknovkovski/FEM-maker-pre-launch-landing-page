@@ -129,6 +129,7 @@ h3 {
     }
 
     .logo-area {
+        display: block; /* because we use flex on mobile */
         margin-top: 48px;
         padding-left: 39px;
         margin-bottom: 77px;
