@@ -375,16 +375,16 @@ h3 {
 }
 
 .pricing-box {
-    width: 445px;
+    width: 90%;
     background: #093F68;
     border-radius: 8px;
     color: #FFFFFF;
-    padding: 49px 38px;
+    padding: 49px 29px 32px;
     position: relative;
 }
 
 .paid-plan-box {
-    padding: 60px 38px;
+    padding-top: 61px;
 }
 
 .pricing-box h3 {
@@ -487,11 +487,7 @@ h3 {
 
     .pricing-box {
         width: 445px;
-        background: #093F68;
-        border-radius: 8px;
-        color: #FFFFFF;
-        padding: 49px 38px;
-        position: relative;
+        padding: 49px 38px 49px;
     }
 
     .paid-plan-box {
