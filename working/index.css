@@ -79,10 +79,12 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-image-mobile {
     width: 410px;
+    margin-bottom: 48px;
 }
 
 .hero-content-box {
@@ -90,6 +92,17 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 327px;
+    margin-bottom: 144px;
+}
+
+.hero h1 {
+    margin-bottom: 23px;
+    padding: 0 2rem 0 2rem;
+}
+
+.hero-content-box p {
+    margin-bottom: 32px;
 }
 
 .logo-area {
