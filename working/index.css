@@ -645,27 +645,27 @@ ul > li::before {
 
 /* SIGNUP AREA */
 .signup-area {
-    height: 228px; /* temporary, remove when content sized */
-    background-image: url("./assets/bg-footer-squiggle.svg");
-    margin-bottom: 117px;
-    padding-top: 52px;
-    padding-bottom: 42px;
+    width: 100%;
+    margin: 0 auto 164px;
 }
 
 .signup-content-box {
-    width: 476px;
-    height: 134px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 42px;
 }
 
+.signup-content-box h2 {
+    padding: 0 3.5rem 0 3.5rem;
+    text-align: center;
+}
+
 .signup-area-form {
     display: flex;
-    gap: 16px;
-    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+    width: 90%;
 }
 
 .signup-area-form input {
@@ -699,9 +699,9 @@ ul > li::before {
 
 @media screen and (min-width: 768px) {
     .signup-area {
-        height: 228px; /* temporary, remove when content sized */
-        background-image: url("./assets/bg-footer-squiggle.svg");
         margin-bottom: 117px;
+        background-image: url("./assets/bg-footer-squiggle.svg");
+        /* Padding is for the background image to show more of */
         padding-top: 52px;
         padding-bottom: 42px;
     }
@@ -710,45 +710,12 @@ ul > li::before {
         width: 476px;
         height: 134px;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 42px;
     }
 
     .signup-area-form {
-        display: flex;
         gap: 16px;
+        flex-direction: row;
         width: 100%;
-    }
-
-    .signup-area-form input {
-        background: #093F68;
-        border-radius: 24px;
-        border: none;
-        padding: 12px 18px;
-        flex-grow: 1;
-    }
-
-    .signup-area-form input::placeholder {
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-        opacity: 0.4;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 800;
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .signup-area-form button {
-        background: #3EE9E5;
-        border-radius: 24px;
-        padding: 12px 26px;
-        border: none;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 800;
-        font-size: 15px;
-        line-height: 25px;
     }
 }
 
