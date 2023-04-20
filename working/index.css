@@ -726,6 +726,59 @@ ul > li::before {
     filter: invert() hue-rotate(90deg);
 }
 
+/* SIGNUP AREA */
+.signup-area {
+    height: 228px; /* temporary, remove when content sized */
+    background-image: url("./assets/bg-footer-squiggle.svg");
+    margin-bottom: 117px;
+    padding-top: 52px;
+    padding-bottom: 42px;
+}
+
+.signup-content-box {
+    width: 476px;
+    height: 134px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+}
+
+.signup-area-form {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.signup-area-form input {
+    background: #093F68;
+    border-radius: 24px;
+    border: none;
+    padding: 12px 18px;
+    flex-grow: 1;
+}
+
+.signup-area-form input::placeholder {
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.signup-area-form button {
+    background: #3EE9E5;
+    border-radius: 24px;
+    padding: 12px 26px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+}
 
 @media screen and (min-width: 768px) {
     .signup-area {
