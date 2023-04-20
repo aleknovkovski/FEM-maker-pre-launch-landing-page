@@ -77,7 +77,12 @@ h3 {
     margin-top: 0;
     overflow-x: clip;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.hero-image-mobile {
+    width: 410px;
 }
 
 .hero-content-box {
@@ -98,6 +103,11 @@ h3 {
 @media screen and (min-width: 768px) {
     .hero {
         gap: 0.5rem;
+        flex-direction: row;
+    }
+
+    .hero-image-mobile {
+        display: none;
     }
 
     .hero-content-box {
