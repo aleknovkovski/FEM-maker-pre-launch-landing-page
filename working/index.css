@@ -3,13 +3,33 @@
     box-sizing: border-box;
 }
 
+html {
+    /*--14px: 0.875rem;*/
+    --15px: 0.9375rem;
+    /*--16px: 1rem;*/
+    /*--17px: 1.0625rem;*/
+    --18px: 1.125rem;
+    /*--19px: 1.1875rem;*/
+    /*--20px: 1.25rem;*/
+    /*--21px: 1.3125rem;*/
+    --24px: 1.5rem;
+    --25px: 1.563rem;
+    --32px: 2rem;
+    --33px: 2.063rem;
+    --40px: 2.5rem;
+    --44px: 2.75rem;
+    --48px: 3rem;
+    --55px: 3.438rem;
+    --56px: 3.5rem;
+}
+
 body {
     background: #080C20;
     color: #777F98;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: var(--15px);
+    line-height: var(--25px);
 }
 
 h1, h2, h3 {
@@ -18,8 +38,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: var(--32px);
+    line-height: var(--40px);
 }
 
 h1 span {
@@ -27,13 +47,13 @@ h1 span {
 }
 
 h2 {
-    font-size: 24px;
-    line-height: 33px;
+    font-size: var(--24px);
+    line-height: var(--33px);
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: var(--18px);
+    line-height: var(--25px);
 }
 
 .hero-image-left {
@@ -46,30 +66,30 @@ h3 {
 
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: var(--32px);
+        line-height: var(--40px);
     }
 
     h2 {
-        font-size: 24px;
-        line-height: 33px;
+        font-size: var(--24px);
+        line-height: var(--33px);
     }
 
     h3 {
-        font-size: 18px;
-        line-height: 25px;
+        font-size: var(--18px);
+        line-height: var(--25px);
     }
 }
 
 @media screen and (min-width:1440px) {
     h1 {
-        font-size: 48px;
-        line-height: 56px;
+        font-size: var(--48px);
+        line-height: var(--56px);
     }
 
     h2 {
-        font-size: 32px;
-        line-height: 44px;
+        font-size: var(--32px);
+        line-height: var(--44px);
     }
 }
 
@@ -245,8 +265,8 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 141px;
     align-items: center;
+    margin-bottom: 141px;
 }
 
 .benefit {
@@ -273,12 +293,12 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    padding: 27px 21px;
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 .benefit-image-box img {
-    display: block;
-    width: 100%;
+    height: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -287,10 +307,9 @@ h3 {
         margin: 0 auto;
     }
 
-    /*.benefit-image-box img {*/
-    /*    width: 50px;*/
-    /*    height: 50px;*/
-    /*}*/
+    .benefits {
+        margin-bottom: 141px;
+    }
 
     .benefit {
         flex-direction: row;
@@ -317,7 +336,6 @@ h3 {
     }
 
     .benefits {
-        display: flex;
         flex-direction: row;
         gap: 30px;
         height: 383px;
@@ -334,7 +352,8 @@ h3 {
     .benefit-image-box {
         width: 160px;
         height: 164px;
-        border-radius: 45px;
+        padding-top: 34px;
+        padding-bottom: 34px;
     }
 
     .benefit-heading {
@@ -399,8 +418,8 @@ h3 {
 
 .pricing-box-price-tag {
     font-weight: 800;
-    font-size: 40px;
-    line-height: 55px;
+    font-size: var(--40px);
+    line-height: var(--55px);
     color: #FFFFFF;
     margin-bottom: 19px;
     display: flex;
@@ -437,8 +456,8 @@ h3 {
 .pricing-box-price-tag {
 
     font-weight: 800;
-    font-size: 40px;
-    line-height: 55px;
+    font-size: var(--40px);
+    line-height: var(--55px);
     color: #FFFFFF;
     margin-bottom: 19px;
     display: flex;
@@ -463,8 +482,8 @@ h3 {
     mix-blend-mode: normal;
     opacity: 0.6;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: var(--15px);
+    line-height: var(--25px);
 }
 
 @media screen and (min-width: 768px) {
@@ -682,8 +701,8 @@ ul > li::before {
     opacity: 0.4;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: var(--15px);
+    line-height: var(--25px);
 }
 
 .signup-area-form button {
@@ -693,8 +712,8 @@ ul > li::before {
     border: none;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: var(--15px);
+    line-height: var(--25px);
 }
 
 @media screen and (min-width: 768px) {
