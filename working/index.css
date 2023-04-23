@@ -247,21 +247,20 @@ h3 {
     }
 }
 
-
 @media screen and (min-width: 1920px) {
     .hero {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .hero-image-left {
-        width: 15%;
-        left: -30px;
+        width: 22%;
+        left: unset;
     }
 
     .hero-image-right {
         display: block;
-        width: 15%;
-        right: -30px;
+        width: 22%;
+        right: unset;
     }
 }
 
