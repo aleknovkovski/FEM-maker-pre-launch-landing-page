@@ -163,7 +163,7 @@ h3 {
 
     .hero-image-left {
         display: block;
-        width: 38%;
+        width: 42%;
         flex-shrink: 0;
         position: relative;
         /*left: -60px;*/
@@ -175,7 +175,7 @@ h3 {
 
     .hero-image-right {
         display: block;
-        width: 38%;
+        width: 42%;
         flex-shrink: 0;
         position: relative;
         /*right: -60px;*/
