@@ -207,23 +207,23 @@ h3 {
 
     .hero-image-left {
         display: block;
-        width: 25%;
+        width: 33%;
         flex-shrink: 0;
         position: relative;
-        left: -60px;
+        left: -68px;
     }
 
     .hero-image-right {
         display: block;
-        width: 25%;
+        width: 33%;
         flex-shrink: 0;
         position: relative;
-        right: -60px;
+        right: -68px;
     }
 
     .hero h1 {
         margin-bottom: 24px;
-        width: 730px;
+        width: 660px;
         padding: 0 2rem 0 2rem;
     }
 
