@@ -4,6 +4,7 @@
 }
 
 html {
+    --12px: 0.75rem;
     /*--14px: 0.875rem;*/
     --15px: 0.9375rem;
     /*--16px: 1rem;*/
@@ -712,6 +713,16 @@ ul > li::before {
     font-weight: 800;
     font-size: var(--15px);
     line-height: var(--25px);
+}
+
+.signup-area-form-wrapper:after {
+    content: "Oops! That doesn’t look like an email address";
+    display: block;
+    color: transparent; /* will turn to #FF2965 on error */
+    font-size: var(--12px);
+    line-height: var(--25px);
+    margin-top: 4px;
+    margin-left: 18px;
 }
 
 .signup-area-form button {
