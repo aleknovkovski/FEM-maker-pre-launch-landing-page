@@ -725,6 +725,16 @@ ul > li::before {
     margin-left: 18px;
 }
 
+.show-alert:after {
+    content: "Oops! That doesn’t look like an email address";
+    display: block;
+    color: #FF2965; /* will turn to #FF2965 on error */
+    font-size: var(--12px);
+    line-height: var(--25px);
+    margin-top: 4px;
+    margin-left: 18px;
+}
+
 .signup-area-form button {
     background: #3EE9E5;
     border-radius: 24px;
