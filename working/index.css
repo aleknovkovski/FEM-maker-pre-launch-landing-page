@@ -693,9 +693,15 @@ ul > li::before {
 .signup-area-form input {
     background: #093F68;
     border-radius: 24px;
-    border: none;
+    border: 2px solid #093F68;
     padding: 12px 18px;
     flex-grow: 1;
+    color: #FFFFFF;
+}
+
+.signup-area-form input:focus {
+    outline: none;
+    border: 2px solid #3EE9E5;
 }
 
 .signup-area-form input::placeholder {
@@ -712,11 +718,18 @@ ul > li::before {
     background: #3EE9E5;
     border-radius: 24px;
     padding: 12px 26px;
-    border: none;
+    border: 2px solid #3EE9E5;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: var(--15px);
     line-height: var(--25px);
+}
+
+.signup-area-form button:hover {
+    background: unset;
+    color: white;
+    border: 2px solid #3EE9E5;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
